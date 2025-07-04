@@ -1,0 +1,341 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe6f0;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Left - Navigation Menu */
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation ul li {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Center - Heading */
+.heading h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+}
+
+/* Right section (Search + Profile) */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search Section */
+.search_section form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #f9f9f9;
+}
+
+.search_section input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.search_section button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #444;
+}
+
+/* Profile Section */
+.profile_section ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.profile_section span {
+  font-size: 24px;
+  cursor: pointer;
+  color: #444;
+}
+
+.categories {
+  background-color: #fdd7e6;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  position: relative;
+}
+
+.categories-toggle {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.categories-toggle button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.categories nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.categories nav ul li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  padding-bottom: 5px;
+  transition: color 0.3s, border-bottom 0.3s;
+  white-space: nowrap;
+}
+
+.categories nav ul li:hover {
+  color: #000;
+  border-bottom: 2px solid black;
+}
+
+/* carousel */
+
+.corousel {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.corousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.text-center hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.row{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* ==== Base Footer Styling ==== */
+footer {
+  background-color: #ffe6f0;
+  padding: 60px 20px 30px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+/* ==== Footer Top Sections Layout ==== */
+footer .Account_Section,
+footer .company_section,
+footer .help_section,
+footer .social_connection_section {
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+/* ==== Footer Lists ==== */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer ul li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #000;
+}
+
+/* ==== Footer Email Form ==== */
+.footer-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.footer-form input[type="text"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  outline: none;
+}
+
+.footer-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-form button:hover {
+  background-color: #333;
+}
+
+/* ==== Subfooter ==== */
+.subfooter {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.subfooter ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.subfooter ul li a {
+  font-size: 13px;
+  color: #777;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.subfooter ul li a:hover {
+  color: #000;
+}
+
+/* ==== Copyright Section ==== */
+footer .copyright_section {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .categories nav ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .categories nav ul.show {
+    display: flex;
+  }
+
+  .categories-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .categories nav {
+    justify-content: flex-start;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  footer .Account_Section,
+  footer .company_section,
+  footer .help_section,
+  footer .social_connection_section {
+    width: 45%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .Account_Section,
+  footer .company_section,
+  footer .help_section,
+  footer .social_connection_section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-form {
+    justify-content: center;
+  }
+
+  .subfooter ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+

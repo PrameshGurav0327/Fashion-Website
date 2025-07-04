@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHIONPLAYERS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <!-- Left: Navigation -->
+            <div class="navigation">
+                <ul>
+                    <li>Women</li>
+                    <li>Men</li>
+                    <li>About</li>
+                    <li>Everworld Stories</li>
+                </ul>
+            </div>
+
+            <!-- Center: Heading -->
+            <div class="heading">
+                <h1>FASHIONPLAYERS</h1>
+            </div>
+
+            <!-- Right: Search + Profile -->
+            <div class="right-section">
+                <!-- Search -->
+                <div class="search_section">
+                    <form action="search" method="GET">
+                        <input type="text" name="search" placeholder="Search...">
+                        <button type="submit" name="search_products">
+                            <span class="material-symbols-outlined">search</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Profile + Cart -->
+                <div class="profile_section">
+                    <ul>
+                        <li><span class="material-symbols-outlined">person</span></li>
+                        <li><span class="material-symbols-outlined">add_shopping_cart</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Section End -->
+
+    <!-- Main Section -->
+    <main>
+        <div class="categories">
+            <div class="categories-toggle">
+                <button id="toggleCategories">☰ Categories</button>
+            </div>
+
+            <nav id="categoriesMenu">
+                <ul>
+                    <li>Holiday Gifting</li>
+                    <li>New Arrivals</li>
+                    <li>Best-Sellers</li>
+                    <li>Clothing</li>
+                    <li>Tops & Sweaters</li>
+                    <li>Pants & Jeans</li>
+                    <li>Outwear</li>
+                    <li>Shoes & Bags</li>
+                    <li>Sale</li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Curousel Section -->
+        <div class="corousel">
+            <img src="./img/Section 01.png" alt="corousel">
+        </div>
+
+        <!-- Here We Go - The Hero Section 😀 -->
+
+        <div class="hero-section">
+            <!-- Here Goes Our Categories Section -->
+            <h3>Shop by Category</h3>
+            <div class="categories_shop_section">
+                <div class="row row-cols-4 row-cols-md-6 g-6">
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/image.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SHIRTS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/denim.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">DENIM</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/tees.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">TEES</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/pants.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PANTS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/Sweaters.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SWEATERS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/outwears.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">OUTWEAR</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Arrivals, Best-Sellers, The Holiday Outfit -->
+
+            <div class="row row-cols-3 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/img/Frame 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/img/Frame 2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/img/Frame 3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <img src="/img/Frame01.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+            <!-- fasionplayer favorites Product Section -->
+            <div class="fp-favorites">
+                <h3>F-Player Favorites</h3>
+
+                <!-- products cards -->
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/The Waffle Long Sleeve Jacket.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Waffle Long Sleeve Crew</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/The bomber jacket.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Bomber Jacket|Uniform</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/Slim way organic jin.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Slim 4-Way Stretch Organic Jean | Uniform</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="/img/Essential organic crew.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Essential Organic Crew</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fasionplayer favorites Product Section End-->
+
+            <!-- 4 img Curousel -->
+
+            <div class="container my-5">
+                <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Carousel inner -->
+                    <div class="carousel-inner">
+
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="card w-100 mb-3">
+                                <div class="row g-0 flex-row-reverse">
+                                    <div class="col-md-4">
+                                        <img src="/img/heavyweight overshirt.png" class="img-fluid rounded-end"
+                                            alt="Image 1">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card Title 1</h5>
+                                            <p class="card-text">This is the first card. It contains some sample text
+                                                and an image on the right side.</p>
+                                            <p class="card-text"><small class="text-muted">Updated just now</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <div class="card w-100 mb-3">
+                                <div class="row g-0 flex-row-reverse">
+                                    <div class="col-md-4">
+                                        <img src="/img/heavyweight overshirt.png" class="img-fluid rounded-end"
+                                            alt="Image 2">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card Title 2</h5>
+                                            <p class="card-text">Second card content goes here. Image stays on the right
+                                                side.</p>
+                                            <p class="card-text"><small class="text-muted">Updated 1 min ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <div class="card w-100 mb-3">
+                                <div class="row g-0 flex-row-reverse">
+                                    <div class="col-md-4">
+                                        <img src="/img/heavyweight overshirt.png" class="img-fluid rounded-end"
+                                            alt="Image 3">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card Title 3</h5>
+                                            <p class="card-text">Third card with right image and full-width design.</p>
+                                            <p class="card-text"><small class="text-muted">Updated 5 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="carousel-item">
+                            <div class="card w-100 mb-3">
+                                <div class="row g-0 flex-row-reverse">
+                                    <div class="col-md-4">
+                                        <img src="/img/heavyweight overshirt.png" class="img-fluid rounded-end"
+                                            alt="Image 4">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card Title 4</h5>
+                                            <p class="card-text">Fourth card slide content. Clean layout with image on
+                                                the right.</p>
+                                            <p class="card-text"><small class="text-muted">Updated 10 mins ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel"
+                        data-bs-slide="prev" title="Previous Slide" aria-label="Previous">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#customCarousel"
+                        data-bs-slide="next" title="Next Slide" aria-label="Next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- ----------------Curousel end-------------- -->
+
+            <!-- Carousel saperator -->
+
+            <div class="text-center">
+                <hr>
+            </div>
+            <!-- Carousel saperator end-->
+
+            <!--  -->
+        </div>
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="Account_Section">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Redeem a Gift Card</a></li>
+            </ul>
+        </div>
+        <div class="company_section">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Environmental</a></li>
+                <li><a href="#">Initiatives</a></li>
+                <li><a href="#">Factories</a></li>
+                <li><a href="#">DEI</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Internationals</a></li>
+                <li><a href="#">Accessibility</a></li>
+            </ul>
+        </div>
+        <div class="help_section">
+            <h4>Get Help</h4>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Shipping Info</a></li>
+                <li><a href="#">Bulk Orders</a></li>
+            </ul>
+        </div>
+        <div class="social_connection_section">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Out Stores</a></li>
+            </ul>
+
+            <!-- Footer Email Form -->
+            <form action="gmail" name="contact_email" class="footer-form">
+                <input type="text" placeholder="Email Address" required>
+                <button type="submit" name="send_mail">Send</button>
+            </form>
+
+        </div>
+
+        <div class="subfooter">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Do Not Sell or Share My Personal Information</a></li>
+                <li><a href="#">CS Supply Chain Transparency</a></li>
+                <li><a href="#">Vendor Code of Conduct</a></li>
+                <li><a href="#">Sitemap Pages</a></li>
+                <li><a href="#">Sitemap Products</a></li>
+            </ul>
+        </div>
+        <div class="copyright_section">
+            &copy; 2025 All Rights Reserved
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
